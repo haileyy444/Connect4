@@ -42,13 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ctx.fillStyle = color;
       return ctx.fillStyle;
   }
-  // class Player {
-  //   constructor(color)
-  //   {
-  //     this.color = color;
-  //   }
-  // }
-
+ 
   //now handle game start
   document.getElementById('gameStartButton').addEventListener('click', function() {
     //get p1 color
